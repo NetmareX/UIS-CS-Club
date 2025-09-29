@@ -433,7 +433,7 @@ function clearUrl(e) {
       window.location.pathname + window.location.search,
     );
 
-    // Yes this kinda just assumes it's got one but eh, should never be falsely fired and even if it does nothing bad should really happen
+    // Yes this kinda just assumes it's got one but eh, should never be falsely fired and even if it does nothing bad should really happe
     ElStore.get(EL_ID_LIST.clrCont).classList.remove(
       ElAttributes.activeClassName,
     );
